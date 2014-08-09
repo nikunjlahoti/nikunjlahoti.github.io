@@ -5,8 +5,8 @@ title: Nikunj Lahoti
 {% include header.html %}
 <!-- {% gist 3954964 %} -->
 <div id="home">
-Posts
-  <ul class="posts">
+<!-- <h2>Posts</h2> -->
+  <ul class="lead">
     {% for post in site.categories.live %}
 	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
     	<!--{{ post.excerpt }}-->
@@ -14,9 +14,9 @@ Posts
     {% endfor %}
   </ul>
 
-
-...and the other posts created during testing!
-  <ul class="posts">
+<p class="lead"></p>
+<p class="lead">...and the other posts created during testing!</p>
+  <ul class="lead">
     {% for post in site.categories.test %}
 	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}

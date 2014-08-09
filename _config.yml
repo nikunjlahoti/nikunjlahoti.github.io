@@ -1,6 +1,9 @@
 name: Nikunj Lahoti 
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 paginate: 10
 paginate_path: "page:num"
-
+gems:
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-mentions
