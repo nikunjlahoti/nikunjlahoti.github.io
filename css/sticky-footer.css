@@ -41,5 +41,16 @@ code {
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #EEE;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
+.even {
+	background-color: #F5F5F5;
+	padding: 10px
+}
+
+.odd {
+	background-color: #DDD;
+	padding: 10px
+}
