@@ -6,44 +6,31 @@ tags: new github
 ---
 
 I was on Android 5. And wasn't able to install OTA update 5.0.1 because I had changed so many things over time.
-
-
 (Rooted + Multirom + TWRP custom rom)
 
 
 Just now managed to install the update and this is how I did it.
 
-
 A) Remove multirom
-
 https://github.com/Tasssadar/multirom/wiki/Using-MultiROM
-
 multirom_uninstaller-mako.zip
 
 B) Remove TWRP
-
 Get into bootloader. Get recovery from the Factory Images
-
 # fastboot flash recovery recovery.img
 
 
 C) Downlaod and install OTA
-
 Error:
-
 Verifying current system...
-
 "system/bin/debuggerd" has unexpected contents.
 
 E:Error in /cache/update.zip
-
 (Status 7)
-
 Installation aborted.
 
 
 Solution:
-
 1) From the Nexus Factory Images on Google - extract the "system.img"
 
 2) Mount the system.img
@@ -57,7 +44,7 @@ http://omappedia.org/wiki/Android_eMMC_Booting#Modifying_.IMG_Files
 
 3) Mount the System partition in RW mode:
 
-mount -o rw,remount -t ext4 /system
+# mount -o rw,remount -t ext4 /system
 
 4) Copy the required files and try to install again.
 
@@ -70,4 +57,9 @@ http://www.androidcentral.com/android-501-ota-links-are-starting-surface-heres-h
 # adb sideload lollipop.zip
 
 
-After that it took a really long time to reboot. :) But it works :P
+After that it took a really long time to reboot. :) And didn't work at all. Was stuck in a boot loop.
+
+So I got into bootloader, formatted system partition and flashed "system.img". (back to pavilion) 
+And immediately came to Recovery & I sideloaded the OTA update and rebooted.
+
+Android is upgrading...
