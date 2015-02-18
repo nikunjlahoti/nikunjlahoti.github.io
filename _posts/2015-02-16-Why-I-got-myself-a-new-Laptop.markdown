@@ -6,6 +6,7 @@ tags: new github
 ---
 
 There were some issues with my Acer 5738 which I had made peace with:
+
 1. On heavy CPU processing it would get overheated and kernel would panic at 92 degrees and just shutdown to save the hardware from damage. `#GoodKernel`! On Hangouts it would only survive for 10 minutes or so. Rogue chrome tabs would make it overheat in 15 minutes. The thermal design is a major issue in the Laptop. Even an external cooling fan didn't do any good. 
 
 2. The inbuilt speakers died long ago. I have been using those portable ones from iBall.
@@ -20,6 +21,7 @@ So I started looking for a new piece of hardware that would make the world suck 
 And I found that beast - Lenovo Y50-70. So much of fire power in the hood... makes me very happy. I am going to start experimenting soon.
 
 Things I plan to do:
+
 1. Run Virtual Machines (my _bhabhi_ got me a Snow Leapord some time back and now it's finally time to tame it :D)
 
 2. Play Games. A lot of them. And enter the world of dedicated graphics card.
