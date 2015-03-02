@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "VM!"
+date:   2014-04-15 19:21:17 +0530
+categories: blog test
+---
+
+Well as I promised myself, now I am running Mac OS X 10.6 - which got upgraded to 10.6.8 (after the combo update) - on VirtualBox on my Windows 8.1 box.
+It wasn't a lot of effort.
+
+VirtualBox contains an EFI mode but that doesn't work with Snow Leopard, so we need iBoot corresponding to the host processor (Haswell for me). Inject the 'Mac OS X SL ISO' in the CD Devices and press F5. It will detect the disk and you can boot from it. Later, format the VDI disk and install it successfully.
+
+Issues faced:
+1. Multibeast - which is supposed to inject a bootloader fails to work upon the next reboot no matter how I do it.
+2. _About this mac_ crashes the current login and respawns it. I still need to figure out why from logs etc.
+3. Video resolution isn't great on my 2K screen. A boot.plist file in the iBoot ISO may have to be modified to make that work.
+4. When trying to free upgrade to Yosemite,  the App store tells me that it is only possible for a certain processors (which lists mine - so gotta fix that somehow by changing some plist or kext file)
+
+Now I have also got the VirtualBox running XP, Windows 8.1, Linux Mint :)
+So deep is my love for Virtualization that I keep going back to it. https://nikunjlahoti.wordpress.com/2010/06/16/wooing-mac-os-x-10-6-3/
+
+In other news my laptop now has got Ubuntu and got the Wifi to work as well :)
