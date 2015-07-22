@@ -2,7 +2,7 @@
 layout: post
 title:  "VM!"
 date:   2015-03-02 19:21:17 +0530
-categories: blog test
+categories: blog live
 ---
 
 Well as I promised myself, now I am running Mac OS X 10.6 - which got upgraded to 10.6.8 (after the combo update) - on VirtualBox on my Windows 8.1 box.
