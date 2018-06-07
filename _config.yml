@@ -7,3 +7,5 @@ gems:
   - jekyll-sitemap
   - jemoji
   - jekyll-mentions
+
+theme: jekyll-theme-leap-day
