@@ -1,5 +1,5 @@
 name: Nikunj Lahoti 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 paginate: 10
 paginate_path: "page:num"
